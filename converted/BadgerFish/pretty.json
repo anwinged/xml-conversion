@@ -1,0 +1,71 @@
+{
+  "@xmlns": {
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+  },
+  "items": {
+    "@xsi:noNamespaceSchemaLocation": "config.xsd",
+    "item": [
+      {
+        "@id": 1234,
+        "name": [
+          {
+            "$": "Item"
+          }
+        ],
+        "award": [
+          {
+            "resource": [
+              {
+                "@type": "money",
+                "type": [
+                  {
+                    "$": "money"
+                  }
+                ],
+                "count": [
+                  {
+                    "$": 100
+                  }
+                ]
+              },
+              {
+                "@type": "item",
+                "type": [
+                  {
+                    "$": "item"
+                  }
+                ],
+                "count": [
+                  {
+                    "$": 2
+                  }
+                ],
+                "itemId": [
+                  {
+                    "$": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@id": 1235,
+        "name": [
+          {
+            "$": "Item 2"
+          }
+        ],
+        "alias": [
+          {
+            "$": "item"
+          },
+          {
+            "$": "12345"
+          }
+        ]
+      }
+    ]
+  }
+}

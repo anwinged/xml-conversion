@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="config.xsd">
+    <item id="1234">
+        <name>Item</name>
+        <award>
+            <resource type="money">
+                <type>money</type>
+                <count>100</count>
+            </resource>
+            <resource type="item">
+                <type>item</type>
+                <count>2</count>
+                <itemId>5</itemId>
+            </resource>
+        </award>
+    </item>
+    <item id="1235">
+        <name>Item 2</name>
+        <alias>item</alias>
+        <alias>12345</alias>
+    </item>
+</items>

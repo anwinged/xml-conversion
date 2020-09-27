@@ -1,0 +1,27 @@
+{
+  "item": [
+    {
+      "name": "Item",
+      "award": {
+        "resource": [
+          {
+            "type": "money",
+            "count": 100
+          },
+          {
+            "type": "item",
+            "count": 2,
+            "itemId": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Item 2",
+      "alias": [
+        "item",
+        "12345"
+      ]
+    }
+  ]
+}

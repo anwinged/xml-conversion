@@ -1,0 +1,1 @@
+{"items": {"itemsxsi:noNamespaceSchemaLocation": "config.xsd", "item": [{"itemid": 1234, "name": ["Item"], "award": [{"resource": [{"resourcetype": "money", "type": ["money"], "count": [100]}, {"resourcetype": "item", "type": ["item"], "count": [2], "itemId": [5]}]}]}, {"itemid": 1235, "name": ["Item 2"], "alias": ["item", "12345"]}]}}

@@ -1,0 +1,62 @@
+{
+  "attributes": {
+    "xsi:noNamespaceSchemaLocation": "config.xsd"
+  },
+  "children": [
+    {
+      "item": [
+        {
+          "attributes": {
+            "id": 1234
+          },
+          "children": [
+            {
+              "name": "Item",
+              "award": {
+                "resource": [
+                  {
+                    "attributes": {
+                      "type": "money"
+                    },
+                    "children": [
+                      {
+                        "type": "money",
+                        "count": 100
+                      }
+                    ]
+                  },
+                  {
+                    "attributes": {
+                      "type": "item"
+                    },
+                    "children": [
+                      {
+                        "type": "item",
+                        "count": 2,
+                        "itemId": 5
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "id": 1235
+          },
+          "children": [
+            {
+              "name": "Item 2",
+              "alias": [
+                "item",
+                "12345"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
